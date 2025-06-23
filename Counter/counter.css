@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    padding-top: 300px;
+    background-color: rgb(199, 199, 199);
+}
+
+h1 {
+    border-style: inset;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 50px 150px;
+    background-color: aqua;
+}
+
+#value {
+    font-size: 40px;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border: 40px;
+    border-radius: 20px;
+}
+
+.decrease {
+    background-color: red;
+}
+
+.reset {
+    background-color: honeydew;
+}
+
+.increase {
+    background-color: chartreuse;
+}
