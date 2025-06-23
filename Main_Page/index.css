@@ -57,7 +57,22 @@ body {
     background-color: darkorange;
 }
 
+#project11 {
+    margin-bottom: 50px;
+}
+
 #projectLinks {
     border:rgb(0, 255, 0) dotted 10px;
     display: none;
+}
+#project2 {
+    text-decoration: none;
+    border: rgb(0, 0, 0) solid 2px;
+    padding: 10px;
+    border-radius: 40px;
+    transition-duration: 0.7s;    
+}
+
+#project2:hover {
+    background-color: darkorange;
 }
