@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background: url("/Images/soil.png");
+    background: url("../Images/soil.png");
     border: 3px solid white;
     border-radius: 25px;
 }
@@ -18,7 +18,7 @@ body {
 #board div {
     width: 180px;
     height: 180px;
-    background-image: url("/Images/pipe.png");
+    background-image: url("../Images/pipe.png");
     background-size: cover;
 }
 
@@ -72,7 +72,7 @@ h2 {
     width: 100px;
     height: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("/Images/icons8-play-50.png");
+    background-image: url("../Images/icons8-play-50.png");
     border: none;
     border-radius: 20px;
     position: absolute;
