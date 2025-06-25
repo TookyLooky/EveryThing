@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    background: url("../Images/soil.png");
+    background: url("../EveryThing/Images/soil.png");
     border: 3px solid white;
     border-radius: 25px;
 }
@@ -18,7 +18,7 @@ body {
 #board div {
     width: 180px;
     height: 180px;
-    background-image: url("../Images/pipe.png");
+    background-image: url("../EveryThing/Images/pipe.png");
     background-size: cover;
 }
 
