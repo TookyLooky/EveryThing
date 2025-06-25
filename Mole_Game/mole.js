@@ -54,7 +54,7 @@ function setMole() {
     }
 
     var mole = document.createElement("img");
-    mole.src = "/Images/pngwing.com.png";
+    mole.src = "../Images/pngwing.com.png";
 
     let num = getRandomTile();
     if (currPlantTile && currPlantTile.id == num) {
@@ -76,7 +76,7 @@ function setPlant() {
     }
 
     let plant = document.createElement("img");
-    plant.src = "../EveryThing/Images/pngwing.com (1).png";
+    plant.src = "../Images/pngwing.com (1).png";
 
     let num = getRandomTile();
     if (currMoleTile && currMoleTile.id == num) {
