@@ -7,15 +7,26 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="mole.css">
-        <script src="mole.js"></script>
+
     </head>
     <body>
+        
         <h1>Hit The Cat</h1>
         <h2 id="score">Score will be here</h2>
+        <div id = "time-block">    
+            <p id="countdown"></p>
+        </div>
+
+
+        
+
         <div id="board">
+            <button id="btn-start" onclick="startGame()"></button>
+            <img id="game-ended-img" src = "/Images/game_ended.png" alt = "Game is over">
 
         </div>
     
         <button id="restart-game" onclick = reset()>Press to restart your game</button>
+        <script src="mole.js"></script>
     </body>
 </html>
