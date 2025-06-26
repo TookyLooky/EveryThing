@@ -76,3 +76,19 @@ body {
 #project2:hover {
     background-color: darkorange;
 }
+
+#project22 {
+    margin-bottom: 50px;
+}
+
+#project3 {
+    text-decoration: none;
+    border: rgb(0, 0, 0) solid 2px;
+    padding: 10px;
+    border-radius: 40px;
+    transition-duration: 0.7s;    
+}
+
+#project3:hover {
+    background-color: darkorange;
+}
