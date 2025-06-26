@@ -1,1 +1,1 @@
-# EveryThing
+# Mini_Projects
